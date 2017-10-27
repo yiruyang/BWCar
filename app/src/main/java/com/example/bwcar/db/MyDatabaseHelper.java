@@ -20,6 +20,9 @@ public class MyDatabaseHelper extends SQLiteOpenHelper{
             +"message integer)";
 
     public static final String NAME_KEY = "name";
+    public static final String MESSAGE_KEY = "message";
+    public static final String POSITION_KEY = "position";
+    public static final String TABLE_NAME = "Button";
 
 
     private Context mContext;
